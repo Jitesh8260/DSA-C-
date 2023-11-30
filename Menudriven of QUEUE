@@ -87,7 +87,7 @@ int isempty()
 void display()
 {
 	int i;
-	printf("\n Elements are: \n");
+	printf("\n Elements of QUEUE are: \n");
 	for(i=front;i<=rear;i++)
 		printf("%d\t",queue[i]);
 }

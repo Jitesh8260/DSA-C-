@@ -1,0 +1,94 @@
+//program to implement queue
+#include<stdio.h>
+#include<stdlib.h>
+#define n 20
+int queue[n];
+int front=-1,rear=-1;
+void insert();
+int delete();
+int isfull();
+int isempty();
+void display();
+int main()
+{
+	int choice;
+	while(1)
+	{
+		printf("\n1.insert \n2.delete \n3.display \n4.exit \n");
+		printf("enter your choice:");
+		scanf("%d",&choice);
+		switch(choice)
+		{
+			case 1:
+				insert();
+				break;
+			case 2:
+				delete();
+				break;
+			case 3:
+				display();
+				break;
+			case 4:
+				exit(0);
+			default:
+				printf("enter a valid choice");
+		}
+	}
+}
+void insert()
+{
+	int item;
+	if(isfull())
+	{
+		printf("linear queue overflow!!\n");
+		return;
+	}
+	else
+	{
+		printf("enter the value to insert:\n");
+		scanf("%d",&item);
+		if(rear==-1)
+		{
+			front++;
+		}
+		rear++;
+		queue[rear]=item;
+	}
+		
+}
+int delete()
+{
+	int item;
+	if(isempty())
+	{
+		printf("\nLinear queue is empty!");
+		return;
+	}
+	item=queue[front];
+	if(front==rear)
+	{
+		front=-1;
+		rear=-1;
+	}
+	else
+		front=front+1;
+	return item;
+}
+int isfull()
+{
+	return rear==n-1;
+}
+int isempty()
+{
+	return front==-1;
+}
+void display()
+{
+	int i;
+	printf("\n Elements are: \n");
+	for(i=front;i<=rear;i++)
+		printf("%d\t",queue[i]);
+}
+
+	
+

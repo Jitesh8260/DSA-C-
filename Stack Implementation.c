@@ -9,6 +9,7 @@ void POP();
 void display();
 void main()
 {
+	printf("Enter 3 elements to push into stack\n");
 	PUSH();
 	PUSH();
 	PUSH();

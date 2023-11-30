@@ -11,29 +11,17 @@ int isempty();
 void display();
 int main()
 {
-	int choice;
-	while(1)
-	{
-		printf("\n1.insert \n2.delete \n3.display \n4.exit \n");
-		printf("enter your choice:");
-		scanf("%d",&choice);
-		switch(choice)
-		{
-			case 1:
-				insert();
-				break;
-			case 2:
-				delete();
-				break;
-			case 3:
-				display();
-				break;
-			case 4:
-				exit(0);
-			default:
-				printf("enter a valid choice");
-		}
-	}
+	printf("Enter 3 elements to push into queue\n");
+	insert();
+	insert();
+	insert();
+	printf("THE QUEUE IS:\n");
+	display();
+	printf("deletion of element undergoing\n");
+	delete();
+	printf("Remaining QUEUE is:\n");
+	display();
+	
 }
 void insert()
 {

@@ -13,7 +13,7 @@ int main()
 {
 	char str[MAX];
 	int i;
-	printf("input a string:\n");
+	printf("Input a string:\n");
 	scanf("%s",str);
 	for(i=0;i<strlen(str);i++)
 		push(str[i]);
@@ -24,14 +24,14 @@ int main()
 		i++;
 	}
 	str[i] = '\0';
-	 printf("reversed string is:%s\n",str);
+	 printf("Reversed string is:%s\n",str);
 	 return 0;
 }
 int push(char item)
 {
 	if(isfull())
 	{
-		printf("stack is full!!\n");
+		printf("Stack is full!!\n");
 		return 0;
 	}
 	top=top+1;
@@ -41,7 +41,7 @@ char pop()
 {
 	if(isempty())
 	{
-		printf("stack is empty!!\n");
+		printf("Stack is empty!!\n");
 		return 0;
 	}
 	item=stackstring[top];

@@ -2,10 +2,10 @@
 #include<stdio.h>
 void input(int a[][50],int ,int );
 void display(int a[][50], int ,int );
-int sum(int a[][50],int b[][50],int s[][50],int ,int );
+int sum(int a[][50],int b[][50],int sum[][50],int ,int );
 int main()
 {
-	int a[50][50],b[50][50],s[50][50],r,c;
+	int a[50][50],b[50][50],sum[50][50],r,c;
 	printf("enter the no of rows and columns:\n");
 	scanf("%d%d",&r,&c);
 	input(a,r,c);
@@ -40,7 +40,7 @@ void display(int a[][50],int r,int c)
 		
 	}
 }
-int sum(int a[][50], int b[][50],int s[][50],int r, int c)
+int sum(int a[][50], int b[][50],int sum[][50],int r, int c)
 {
 	int i,j;
 	for(i=0;i<r;i++)

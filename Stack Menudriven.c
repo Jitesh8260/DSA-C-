@@ -12,7 +12,7 @@ int main()
 	int i=1,x,y;
 	while(i)
 	{
-		printf("\n enter 1: push \nenter 2:pop \nenter 3: display \nenter 4:exit");
+		printf("\n Enter 1: push \nEnter 2:pop \nEnter 3: display \nEnter 4:Exit");
 		scanf("%d",&x);
 		switch(x)
 		{
@@ -52,7 +52,7 @@ void pop()
 		printf("\n STACK UNDERFLOW");
 		return;
 	}
-	printf("the deleted item=%d\n",STACK[TOP]);
+	printf("The deleted item=%d\n",STACK[TOP]);
 	TOP--;
 }
 void display()

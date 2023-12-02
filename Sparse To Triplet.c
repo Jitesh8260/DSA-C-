@@ -6,10 +6,10 @@ void displaysparse(int[][3]);
 int main()
 {
 	int sparse[50][50],triplet[50][3],r,c,i,j;
-	printf("\nenter the dimension of the sparse matrix:\n");
+	printf("\nEnter the dimension of the sparse matrix:\n");
 	scanf("%d%d",&r,&c);
 	readmatrix(sparse,r,c);
-	printf("\n the sparse matrix is \n");
+	printf("\n The sparse matrix is \n");
 	for(i=0;i<r;i++)
 	{
 		for(j=0;j<c;j++)
@@ -26,7 +26,7 @@ int main()
 void readmatrix(int sparse[][50],int r,int c)
 {
 	int i,j;
-	printf("enter the elements of sparse matrix:\n");
+	printf("Enter the elements of sparse matrix:\n");
 	for(i=0;i<r;i++)
 	{
 		for(j=0;j<c;j++)
@@ -59,7 +59,7 @@ void createsparse(int sparse[][50],int r,int c,int triplet[][3])
 void displaysparse(int triplet[][3])
 {
 	int i,j;
-	printf("\nthe triplet matrix is: \n");
+	printf("\nThe triplet matrix is: \n");
 	for(i=0;i<=triplet[0][2];i++)
 	{
 		for(j=0;j<3;j++)

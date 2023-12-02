@@ -6,7 +6,7 @@ void transpose(int[][50],int[][50],int ,int );
 int main()
 {
 	int a[50][50],t[50][50],r,c;
-	printf("enter the no of rows and columns:\n");
+	printf("Enter the no of rows and columns:\n");
 	scanf("%d%d",&r,&c);
 	input(a,r,c);
 	display(a,r,c);
@@ -18,7 +18,7 @@ int main()
 void input(int a[][50],int r,int c)
 {
 	int i,j;
-	printf("enter the elements of the matrix:\n");
+	printf("Enter the elements of the matrix:\n");
 	for(i=0;i<r;i++)
 	{
 		for(j=0;j<c;j++)
@@ -30,7 +30,7 @@ void input(int a[][50],int r,int c)
 void display(int a[][50],int r,int c)
 {
 	int i,j;
-	printf("the matrix is:\n");
+	printf("The matrix is:\n");
 	for(i=0;i<r;i++)
 	{
 		for(j=0;j<c;j++)		

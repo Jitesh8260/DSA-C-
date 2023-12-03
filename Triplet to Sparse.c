@@ -25,7 +25,7 @@ int main()
 	displaySparse(triplet);
 	return 0;
 }
-void readmatrix(int triplet[][3],int r)
+void readMatrix(int triplet[][3],int r)
 {
 	int i,j;
 	printf("Enter the elements of the matrix:\n");
@@ -37,7 +37,7 @@ void readmatrix(int triplet[][3],int r)
 		}
 	}
 }
-void createsparse(int triplet[][3],int r,int nz,int sparse[][50] )
+void createSparse(int triplet[][3],int r,int nz,int sparse[][50] )
 {
 	int i,j;
 	for(i=0;i<nz;i++)
@@ -46,7 +46,7 @@ void createsparse(int triplet[][3],int r,int nz,int sparse[][50] )
 	}
 }
 			
-void displaysparse(int sparse[][50])
+void displaySparse(int sparse[][50])
 {
 	int i,j;
 	printf("\nThe sparse matrix is: \n");

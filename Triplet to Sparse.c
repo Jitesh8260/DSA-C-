@@ -11,7 +11,7 @@ int main()
 	printf("Enter the number of non zero terms\n");
 	scanf("%d",&nz);
 	readmatrix(triplet,r);
-	printf("\n the triplet matrix is \n");
+	printf("\n The triplet matrix is \n");
 	for(i=0;i<r;i++)
 	{
 		for(j=0;j<3;j++)
@@ -28,7 +28,7 @@ int main()
 void readmatrix(int triplet[][3],int r)
 {
 	int i,j;
-	printf("enter the elements of the matrix:\n");
+	printf("Enter the elements of the matrix:\n");
 	for(i=0;i<r;i++)
 	{
 		for(j=0;j<3;j++)

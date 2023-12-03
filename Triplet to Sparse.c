@@ -8,7 +8,7 @@ int main()
 	int sparse[50][50],triplet[50][3],r,c,i,j,nz;
 	printf("Enter the no of rows triplet matrix:\n");
 	scanf("%d",&r);
-	printf("enter the number of non zero terms\n");
+	printf("Enter the number of non zero terms\n");
 	scanf("%d",&nz);
 	readmatrix(triplet,r);
 	printf("\n the triplet matrix is \n");

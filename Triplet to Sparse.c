@@ -6,7 +6,7 @@ void displaysparse(int[][50]);
 int main()
 {
 	int sparse[50][50],triplet[50][3],r,c,i,j,nz;
-	printf("enter the no of rows triplet matrix:\n");
+	printf("Enter the no of rows triplet matrix:\n");
 	scanf("%d",&r);
 	printf("enter the number of non zero terms\n");
 	scanf("%d",&nz);

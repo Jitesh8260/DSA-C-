@@ -1,8 +1,8 @@
 //program to form sparse matrix from triplet form
 #include<stdio.h>
-void readmatrix(int[][3],int );
-void createsparse(int [][3], int ,int ,int[][50] );
-void displaysparse(int[][50]);
+void readMatrix(int[][3],int );
+void createSparse(int [][3], int ,int ,int[][50] );
+void displaySparse(int[][50]);
 int main()
 {
 	int sparse[50][50],triplet[50][3],r,c,i,j,nz;
@@ -21,8 +21,8 @@ int main()
 		}
 		printf("\n");
 	}
-	createsparse(sparse,r,c,triplet);
-	displaysparse(triplet);
+	createSparse(sparse,r,c,triplet);
+	displaySparse(triplet);
 	return 0;
 }
 void readmatrix(int triplet[][3],int r)

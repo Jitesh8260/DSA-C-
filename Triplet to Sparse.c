@@ -49,7 +49,7 @@ void createsparse(int triplet[][3],int r,int nz,int sparse[][50] )
 void displaysparse(int sparse[][50])
 {
 	int i,j;
-	printf("\nthe sparse matrix is: \n");
+	printf("\nThe sparse matrix is: \n");
 	for(i=0;i<=nz;i++)
 	{
 		for(j=0;j<3;j++)

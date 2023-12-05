@@ -62,11 +62,11 @@ int delete()
 		front=front+1;
 	return item;
 }
-int isfull()
+int isFFull()
 {
 	return rear==n-1;
 }
-int isempty()
+int isEmpty()
 {
 	return front==-1;
 }

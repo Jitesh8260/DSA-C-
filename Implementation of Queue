@@ -47,7 +47,7 @@ void insert()
 int delete()
 {
 	int item;
-	if(isempty())
+	if(isEmpty())
 	{
 		printf("\nLinear queue is empty!");
 		return;

@@ -1,4 +1,4 @@
-//program to add two matrix
+//Program to add two matrix
 #include<stdio.h>
 void input(int a[][50],int ,int );
 void display(int a[][50], int ,int );

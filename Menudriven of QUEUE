@@ -42,12 +42,12 @@ void insert()
 	int item;
 	if(isfull())
 	{
-		printf("linear queue overflow!!\n");
+		printf("Linear queue overflow!!\n");
 		return;
 	}
 	else
 	{
-		printf("enter the value to insert:\n");
+		printf("Enter the value to insert:\n");
 		scanf("%d",&item);
 		if(rear==-1)
 		{

@@ -6,7 +6,7 @@ int queue[max];
 int front=-1,rear=-1;
 void insert();
 int delete();
-int isfull();
+int isFull();
 int isempty();
 void display();
 int main()

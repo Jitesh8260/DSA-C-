@@ -15,7 +15,7 @@ int main()
 	while(1)
 	{
 		printf("\n1.insert \n2.delete \n3.display \n4.exit \n");
-		printf("enter your choice:");
+		printf("Enter your choice:");
 		scanf("%d",&choice);
 		switch(choice)
 		{
@@ -31,7 +31,7 @@ int main()
 			case 4:
 				exit(0);
 			default:
-				printf("enter a valid choice");
+				printf("Enter a valid choice");
 		}
 	}
 

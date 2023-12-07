@@ -1,4 +1,4 @@
-//program to create triplet matrix from a sparse matrix
+//Program to create triplet matrix from a sparse matrix
 #include<stdio.h>
 void readmatrix(int[][50],int ,int);
 void createsparse(int[][50],int ,int ,int[][3] );

@@ -10,7 +10,7 @@ int main()
 	scanf("%d%d",&r,&c);
 	input(a,r,c);
 	display(a,r,c);
-	printf("after transpose matrix is:\n");
+	printf("After transpose matrix is:\n");
 	transpose(a,t,r,c);
 	display(t,c,r);
 	return 0;

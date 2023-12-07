@@ -1,4 +1,4 @@
-//implementation of stack
+//Implementation of stack
 #include<stdio.h>
 #define max 10
 int STACK[max];

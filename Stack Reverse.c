@@ -1,4 +1,4 @@
-//reverse a string using stack
+//Reverse a string using stack
 #include<stdio.h>
 #include<string.h>
 #define MAX 100

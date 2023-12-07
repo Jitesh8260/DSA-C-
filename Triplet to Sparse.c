@@ -1,4 +1,4 @@
-//program to form sparse matrix from triplet form
+//Program to form sparse matrix from triplet form
 #include<stdio.h>
 void readMatrix(int[][3],int );
 void createSparse(int [][3], int ,int ,int[][50] );

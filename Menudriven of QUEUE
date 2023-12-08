@@ -1,4 +1,4 @@
-//Program to implementqueue
+//Program to implement queue
 #include<stdio.h>
 #include<stdlib.h>
 #define max 20

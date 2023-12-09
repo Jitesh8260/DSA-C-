@@ -86,11 +86,11 @@ int delete()
 	}
 	return item;
 }
-int isfull()
+int isFull()
 {
 	return ((front==0&&rear==n-1)||(front==rear+1));
 }
-int isempty()
+int isEmpty()
 {
 	return front==-1;
 }

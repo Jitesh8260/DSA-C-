@@ -6,8 +6,8 @@ int queue[n];
 int front=-1,rear=-1;
 void insert();
 int delete();
-int isfull();
-int isempty();
+int isFull();
+int isEmpty();
 void display();
 int main()
 {

@@ -14,7 +14,7 @@ int main()
 	int choice;
 	while(1)
 	{
-		printf("\n1.Insert \n2.Delete \n3.Display \n4.Exit \n");
+		printf("\n1.Insert\n2.Delete \n3.Display \n4.Exit \n");
 		printf("enter your choice:");
 		scanf("%d",&choice);
 		switch(choice)

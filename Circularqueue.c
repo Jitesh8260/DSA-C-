@@ -1,6 +1,6 @@
 //Program to implement queue
 #include<stdio.h>
-#include< stdlib.h>
+#include<stdlib.h>
 #define n 20
 int queue[n];
 int front=-1,rear=-1;

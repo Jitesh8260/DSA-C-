@@ -1,4 +1,4 @@
-//Program to implement queue
+ //Program to implement queue
 #include<stdio.h>
 #include<stdlib.h>
 #define n 20

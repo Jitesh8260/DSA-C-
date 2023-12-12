@@ -9,7 +9,7 @@ int main()
 {
 	int i;
 	char inf[max];
-	printf("enter the expression: \n");
+	printf("Enter the expression: \n");
 	scanf("%s",inf);
 	for(i=0;inf[i]!='\0';i++)
 	{

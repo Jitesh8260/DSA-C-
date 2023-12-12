@@ -24,7 +24,7 @@ int main()
 				if(stack[top]=='(')
 					pop();
 				else
-					printf("not balanced\n");
+					printf("Not balanced\n");
 				break;
 			}
 			else if(inf[i]==']')
@@ -32,7 +32,7 @@ int main()
 				if(stack[top]=='[')
 					pop();
 				else
-					printf("not balanced\n");
+					printf("Not balanced\n");
 				break;
 			}
 			else if(inf[i]=='}')
@@ -40,7 +40,7 @@ int main()
 				if(stack[top]=='{')
 					pop();
 				else
-					printf("not balanced\n");
+					printf("Not balanced\n");
 				break;
 			}
 		}

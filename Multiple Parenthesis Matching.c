@@ -1,4 +1,4 @@
-//program for multiple parenthesis matching
+//Program for multiple parenthesis matching
 #include<stdio.h>
 #define max 100
 char stack[max];

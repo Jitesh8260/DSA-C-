@@ -46,9 +46,9 @@ int main()
 		}
 	}
 	if(top==-1)
-		printf("the expression is BALANCED\n");
+		printf("The expression is BALANCED\n");
 	else
-		printf("the expression is NOT BALANCED\n");
+		printf("The expression is NOT BALANCED\n");
 }
 void push(char stack[max],char item)
 {

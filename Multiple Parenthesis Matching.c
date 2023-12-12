@@ -54,7 +54,7 @@ void push(char stack[max],char item)
 {
 	if(top==max-1)
 	{
-		printf("stack overflow\n");
+		printf("Stack Overflow\n");
 	}
 	else
 		top++;
@@ -65,7 +65,7 @@ int pop()
 	char item;
 	if(top==-1)
 	{
-		printf("\nstack underflow");
+		printf("\nStack Underflow");
 		return;
 	}
 	item=stack[top];

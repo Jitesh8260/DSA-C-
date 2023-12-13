@@ -1,4 +1,4 @@
-//program to convert postflix in stack elements
+//Program to convert postflix in stack elements
 #include<stdio.h>
 #include<ctype.h>
 #include<stdlib.h>

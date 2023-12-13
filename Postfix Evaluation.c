@@ -55,7 +55,7 @@ void push(int n)
 	}
 	else
 	{
-		printf("stack is full!!\n");
+		printf("Stack is full!!\n");
 	}
 }
 int pop()

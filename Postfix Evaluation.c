@@ -12,7 +12,7 @@ int main()
 {
 	int a,b,i,result,peval;
 	char ch;
-	printf("enter a postflix expression \n");
+	printf("Enter a postflix expression \n");
 	scanf("%s",postfix);
 	for(i=0;postfix[i] != '\0';i++)
 	{

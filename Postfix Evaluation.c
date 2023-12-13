@@ -44,7 +44,7 @@ int main()
 		}
 	}
 	peval=pop();
-	printf("The postfix evaluation = %d\n",peval);
+	printf("The Postfix Evaluation = %d\n",peval);
 	return 0;
 }
 void push(int n)

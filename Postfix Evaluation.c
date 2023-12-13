@@ -69,7 +69,7 @@ int pop()
 	}
 	else
 	{
-		printf("stack is empty\n");
+		printf("Stack is empty\n");
 		exit(-1);
 	}
 }

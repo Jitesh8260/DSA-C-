@@ -44,8 +44,8 @@ void inf_to_post()
 								while(!isempty()&& precedence(stack[top])>=precedence(symbol))
 								poxt[j++]=pop();
 								push(symbol);
-																				break;
-												default:
+								break;
+								default:
 												poxt[j++]=symbol;
 								}
 				}

@@ -1,4 +1,4 @@
-//program for infix to postfix operation
+//Program for infix to postfix operation
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>

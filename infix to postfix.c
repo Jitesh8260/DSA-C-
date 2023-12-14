@@ -17,7 +17,7 @@ int main()
 {
 				printf("Enter the infix expression:\n");
 				scanf("%s",infix);
-				printf("the postfix expression is: \n");
+				printf("The postfix expression is: \n");
 				inf_to_post();
 }
 void inf_to_post()

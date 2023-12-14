@@ -30,20 +30,20 @@ void inf_to_post()
 								symbol=infix[i];
 								switch(symbol)
 								{
-												case'(':
-																push(symbol);
-																break;
-												case')':
-																while((next=pop())!='(')
-																				poxt[j++]=next;
-																        break;
-												case'+':
-												case'-':
-												case'*':
-												case'^':
-																				while(!isempty()&& precedence(stack[top])>=precedence(symbol))
-																								poxt[j++]=pop();
-																				push(symbol);
+								case'(':
+								push(symbol);
+								break;
+								case')':
+								while((next=pop())!='(')
+								poxt[j++]=next;
+								break;
+								case'+':
+								case'-':
+								case'*':
+								case'^':
+								while(!isempty()&& precedence(stack[top])>=precedence(symbol))
+								poxt[j++]=pop();
+								push(symbol);
 																				break;
 												default:
 												poxt[j++]=symbol;

@@ -46,14 +46,14 @@ void inf_to_post()
 								push(symbol);
 								break;
 								default:
-												poxt[j++]=symbol;
+								poxt[j++]=symbol;
 								}
 				}
-while(!isempty())
+				while(!isempty())
 				poxt[j++]=pop();
-poxt[j]='\0';
+				poxt[j]='\0';
 
-printf("%s",poxt);
+				printf("%s",poxt);
 }
 int precedence(char symbol)
 {

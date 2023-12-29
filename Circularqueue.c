@@ -11,7 +11,7 @@ int isEmpty();
 void display();
 int main()
 {
-	int choice;
+	int cho ice;
 	while(1)
 	{
 		printf("\n1.Insert \n2.Delete \n3.Display \n4.Exit \n");

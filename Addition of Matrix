@@ -9,7 +9,7 @@ int main()
 	printf("enter the no of rows and columns:\n");
 	scanf("%d%d",&r,&c);
 	input(a,r,c);
-	display(a, r,c);
+	display(a,r,c);
 	input(b,r,c);
 	display(b,r,c);
 	sum(a,b,s,r,c);

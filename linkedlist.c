@@ -29,7 +29,7 @@ void createlist(struct node *link)
 {
 	int i=1;
 	char ch;
-	printf("\nEnter element  for node %d: ",i);
+	printf("\nEnter element for node %d: ",i);
 	scanf("%d",&link->info);
 	link->next=NULL;
 	printf("\n Press n to quit and any other key to continue: ");

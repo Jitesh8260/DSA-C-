@@ -25,7 +25,7 @@ int main()
 	return 0;
 	
 }
-void creat elist(struct node *link)
+void createlist(struct node *link)
 {
 	int i=1;
 	char ch;

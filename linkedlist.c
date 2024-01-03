@@ -17,7 +17,7 @@ int main()
 	start=(struct node*)malloc(sizeof(struct node));
 	if(start==NULL)
 	{
-		printf("out o f memory\n");
+		printf("out of memory\n");
 		exit(0);
 	}
 	createlist(start);

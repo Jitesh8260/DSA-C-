@@ -4,7 +4,7 @@
 #include<stdlib.h>
 #define size 40
 int pop();
-void push(int);
+void pu sh(int);
 
 char postfix[size];
 int stack[size],top=-1;
